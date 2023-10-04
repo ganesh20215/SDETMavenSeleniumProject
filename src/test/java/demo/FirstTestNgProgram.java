@@ -13,6 +13,7 @@ public class FirstTestNgProgram {
         driver.navigate().to("https://www.abhibus.com/");
         driver.manage().window().maximize();
         driver.close();
+		driver.close();
     }
 
     @Test
@@ -25,19 +26,11 @@ public class FirstTestNgProgram {
     }
 
     @Test
-    public void testCase3() {
+    public void testCase4() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ganesh\\Downloads\\4Sept2023\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();  //UpCasting
         driver.navigate().to("https://www.flipkart.com/");
         driver.manage().window().maximize();
         driver.close();
-    }
-
-    @Test
-    public void testCase4() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ganesh\\Downloads\\4Sept2023\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();  //UpCasting
-        driver.navigate().to("https://www.google.com/");
-        driver.manage().window().maximize();
     }
 }
