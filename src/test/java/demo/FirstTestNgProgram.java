@@ -39,6 +39,5 @@ public class FirstTestNgProgram {
         WebDriver driver = new ChromeDriver();  //UpCasting
         driver.navigate().to("https://www.google.com/");
         driver.manage().window().maximize();
-        driver.close();
     }
 }
