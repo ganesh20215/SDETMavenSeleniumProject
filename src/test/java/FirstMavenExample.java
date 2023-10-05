@@ -8,7 +8,5 @@ public class FirstMavenExample {
         WebDriver driver = new ChromeDriver();  //UpCasting
         driver.navigate().to("https://www.abhibus.com/");
         driver.manage().window().maximize();
-
-        driver.close();
     }
 }
